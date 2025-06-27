@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="Images/logo.png" /></a>
+        <div class="navbar-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li class="navbar-link"><a href="">HOME</a></li>
+            <li class="navbar-link"><a href="about.html">ABOUT</a></li>
+            <li class="navbar-link"><a href="course.html">COURSE</a></li>
+            <li class="navbar-link"><a href="blog.html">BLOG</a></li>
+            <li class="navbar-link"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" id="toggle_bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>World's Best University</h1>
+        <p>
+          According to latest Times Higher Education we were ranked number 1 in
+          the world. We were also ranked number 1 in disciplines such as <br />
+          Medicine, Law, Computer science and Engineering.
+        </p>
+        <a href="" class="text-btn">Visit Us to know More</a>
+      </div>
+    </section>
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amer, consectetur adipiscig elit.</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+            Pellentesque aliquet turpis nulla, eleifend faucibus est
+            sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec
+            sit.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+            Pellentesque aliquet turpis nulla, eleifend faucibus est
+            sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec
+            sit.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet , consectetur adipiscing elit.
+            Pellentesque aliquet turpis nulla, eleifend faucibus est
+            sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec
+            sit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Our Beautiful Campus</h1>
+      <p>Lorem ipsum dolor sit amer, consectetur adipiscig elit.</p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="Images/london.png" />
+          <div class="layer">
+            <h3>MANCHESTER</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="Images/newyork.png" />
+          <div class="layer">
+            <h3>BOSTON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="Images/washington.png" />
+          <div class="layer">
+            <h3>TEXAS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amer, consectetur adipiscig elit.</p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="Images/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consctetur adipiscing elit. Pellentesque
+            aliquet turpis nulla.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="Images/basketball.png" />
+          <h3>Largest Basketball court</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consctetur adipiscing elit. Pellentesque
+            aliquet turpis nulla.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="Images/cafeteria.png" />
+          <h3>Tasty and Healthy food</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consctetur adipiscing elit. Pellentesque
+            aliquet turpis nulla.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>Lorem ipsum dolor sit amer, consectetur adipiscig elit.</p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="Images/user1.jpg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque aliquet turpis nulla, eleifend faucibus est
+              sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+            </p>
+            <h3>Bella Bron</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="Images/user2.jpg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque aliquet turpis nulla, eleifend faucibus est
+              sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+            </p>
+            <h3>John Williams</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h1>
+        Enroll For Our Various Online Courses <br />
+        Anywhere From The World
+      </h1>
+      <a href="" class="text-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        aliquet turpis nulla, eleifend faucibus est
+        <br />
+        sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+      </div>
+    </section>
+  </body>
+</html>
